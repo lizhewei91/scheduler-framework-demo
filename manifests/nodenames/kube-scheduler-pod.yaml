@@ -13,7 +13,7 @@ spec:
         - kube-scheduler
         - --authentication-kubeconfig=/etc/kubernetes/scheduler.conf
         - --authorization-kubeconfig=/etc/kubernetes/scheduler.conf
-        - --v=3
+        - --v=0
         - --config=/scheduler/scheduler-config.yaml
       image: gcr.io/k8s-staging-scheduler-plugins/kube-scheduler:v20240904--amd64
       imagePullPolicy: IfNotPresent
